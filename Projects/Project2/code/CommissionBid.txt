@@ -1,5 +1,0 @@
-Bidder1 $23,000 Andrew Martinez
-Bidder2 $100,000 Ahmed Mansour
-Bidder3 $78,000 Sara Mouawad Sayed
-Bidder4 $250,000 Cebastian Arnault II
-Bidder5 $50,000 Aziz Bahwan
