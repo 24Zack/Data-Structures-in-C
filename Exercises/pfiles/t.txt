@@ -1,0 +1,49 @@
+Sophie
+Johnson
+28
+Cooking and hiking
+
+Marcus
+Chang
+35
+Photography and playing chess
+
+Olivia
+Martinez
+23
+Painting and playing the guitar
+
+Ethan
+Patel
+30
+Reading and gardening
+
+Mia
+Thompson
+40
+Yoga and traveling
+
+Liam
+Rodriguez
+25
+Playing basketball and writing poetry
+
+Ava
+Nguyen
+32
+Dancing and skiing
+
+Noah
+Brown
+27
+Playing video games and cooking
+
+Isabella
+Wilson
+22
+Playing tennis and reading fiction
+
+William
+Garcia
+38
+Fishing and woodworking
