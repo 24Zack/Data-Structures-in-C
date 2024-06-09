@@ -5,6 +5,11 @@
 
 This project provides a comprehensive collection of data structures and algorithms implemented in the C programming language.
 
+## How to download and clone this project
+```bash
+  git install https://github.com/24Zack/Learning-Cplusplus](https://github.com/24Zack/Data-Structures-in-C
+
+```
 
 ## How to run C code
 
@@ -21,6 +26,6 @@ This project provides a comprehensive collection of data structures and algorith
 ```
 
 
-## Authors
+## Author
 
 - [@Zackaria](https://github.com/24Zack)
