@@ -10,12 +10,13 @@ This project provides a comprehensive collection of data structures and algorith
 
 #### Create the executable file (.exe for Windows)
 
-```http
+```bash
   gcc file_name.c -o executable_file_name
 ```
+
 #### Run the file
 
-```http
+```bash
   ./executable_file_name
 ```
 
