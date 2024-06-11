@@ -7,7 +7,7 @@ This project provides a comprehensive collection of data structures and algorith
 
 ## How to download and clone this project
 ```bash
-  git install https://github.com/24Zack/Data-Structures-in-C
+  git clone https://github.com/24Zack/Data-Structures-in-C
 
 ```
 
