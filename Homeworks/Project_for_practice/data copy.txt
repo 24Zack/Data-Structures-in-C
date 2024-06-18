@@ -1,0 +1,39 @@
+Friton Smith
+3.0
+11342
+
+Jane Doe
+3.5
+22456
+
+John Smith
+3.2
+33567
+
+Emily Johnson
+3.8
+44678
+
+Michael Brown
+2.9
+55789
+
+Sarah Williams
+3.7
+66890
+
+David Lee
+3.4
+77901
+
+Lisa Anderson
+3.1
+88012
+
+James Wilson
+3.6
+99123
+
+Samantha Taylor
+3.3
+11234

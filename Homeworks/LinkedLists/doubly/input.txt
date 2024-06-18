@@ -1,0 +1,40 @@
+7
+Ibn Zohr University
+Agadir
+--------------------------------------
+1
+Cadi Ayyad University
+Marrakech
+--------------------------------------
+10
+International University of Rabat
+Rabat
+--------------------------------------
+6
+Sidi Mohamed Ben Abdellah University
+Fez
+--------------------------------------
+2
+Mohammed V University
+Rabat
+--------------------------------------
+3
+Al Akhawayn University in Ifrane
+Ifrane
+--------------------------------------
+5
+Mohammed First University
+Oujda
+--------------------------------------
+9
+Mohammed VI Polytechnique University
+Ben Guerir
+--------------------------------------
+4
+Casablanca Hassan II University
+Casablanca
+--------------------------------------
+8
+Ibn Tofail University
+Kenitra
+--------------------------------------
