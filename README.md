@@ -3,7 +3,7 @@
 
 # Description
 
-This project provides a comprehensive collection of data structures and algorithms implemented in the C programming language.
+This project provides a comprehensive collection of data structures and algorithms implemented in the C programming language, as well as different sorting algorithms and the basic of strings and files that were introduced beforehand.
 
 ## How to download and clone this project
 ```bash
