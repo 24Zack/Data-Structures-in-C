@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #define size 10
 
 //prototypes
