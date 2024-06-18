@@ -181,7 +181,7 @@ int main(void)
 void menu(void)
 {
     printf("\n\t==================MENU==================");
-    printf("\n\tWelcome to Dr. Talei's office hours!");
+    printf("\n\tWelcome to Dr. T's office hours!");
     printf("\n\t1. Start office hours");
     printf("\n\t2. Serve a student");
     printf("\n\t3. Join the queue");
