@@ -18,7 +18,7 @@ This project provides a comprehensive collection of data structures and algorith
 ```bash
    gcc --v
 ```
-#### Generate the executable file (.exe for Windows)
+#### Generate the executable file (.exe for Windows or .out for macs)
 
 ```bash
   gcc file_name.c -o executable_file_name
