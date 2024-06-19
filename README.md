@@ -13,7 +13,12 @@ This project provides a comprehensive collection of data structures and algorith
 
 ## How to run C code
 
-#### Create the executable file (.exe for Windows)
+#### Make sure you installed GNU C++ compiler
+
+```bash
+   gcc --v
+```
+#### Generate the executable file (.exe for Windows)
 
 ```bash
   gcc file_name.c -o executable_file_name
