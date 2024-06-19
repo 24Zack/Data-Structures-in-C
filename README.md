@@ -18,6 +18,11 @@ This project provides a comprehensive collection of data structures and algorith
 ```bash
    gcc --v
 ```
+#### If not install write in your terminal
+
+```bash
+   brew install gcc
+```
 #### Generate the executable file (.exe for Windows or .out for macs)
 
 ```bash
