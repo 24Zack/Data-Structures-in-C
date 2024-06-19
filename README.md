@@ -18,7 +18,7 @@ This project provides a comprehensive collection of data structures and algorith
 ```bash
    gcc --v
 ```
-#### If not install write in your terminal
+#### If not install write in your terminal (for macs)
 
 ```bash
    brew install gcc
