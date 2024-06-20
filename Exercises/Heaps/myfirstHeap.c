@@ -17,13 +17,14 @@ int main(void)
     int last_i;
     FILE *infp;
     int choice;
+
     do
     {
         
     } while (choice!=6);
     
     
-
+    return 0;
 }
 void swap(int *a, int *b)
 {
