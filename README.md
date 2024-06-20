@@ -28,22 +28,9 @@ To effectively learn and work with data structures in C, you need to have a soli
 ```
 
 ## Tools used
-# My Project
+
 
 <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="VS Code Logo" width="100"/>
-
-This project is developed using Visual Studio Code.
-
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
-
-## Installation
-Instructions for installing the project.
-
-## Usage
-Instructions for using the project.
 
 
 ## How to run C code
