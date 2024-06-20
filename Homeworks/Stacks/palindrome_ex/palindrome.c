@@ -1,5 +1,5 @@
 /**
- * Use a STACK (array impl) to check wether a given string is a palindrome
+ * Use a STACK (array implemented) to check wether a given string is a palindrome
 */
 #include <stdio.h>
 #include <string.h>

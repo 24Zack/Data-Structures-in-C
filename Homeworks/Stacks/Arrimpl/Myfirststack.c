@@ -1,3 +1,6 @@
+/**
+ * Basic Stack data structures implemented using arrays
+ */
 #include <stdio.h>
 #define size 10
 

@@ -2,7 +2,7 @@
  * Video exercise
  * 2nd video
  * Inputting 5 names in a 2d array then sorting alpahbetically
- *
+ * --> We're trying to use strcmp to understand how it works
 */
 #include <stdio.h>
 #include <string.h>
