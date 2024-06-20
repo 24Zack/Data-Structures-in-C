@@ -1,5 +1,5 @@
 /**
- * Bubble sort like me= my method
+ * Bubble sort --> O(n2)
 */
 #include <stdio.h> 
 
