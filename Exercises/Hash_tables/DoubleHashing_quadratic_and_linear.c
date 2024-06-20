@@ -31,9 +31,9 @@ void print_HT(person*,int);
 int Collision_resolution=1; //  It can be 1,2 or 3
 /**
  * i.e.
- * 3: DH
- * 2: QP
- * 1: LP
+ * 3: DH - double hashing
+ * 2: QP - quadratic probing
+ * 1: LP - linear probing
 */
 
 int main(void)

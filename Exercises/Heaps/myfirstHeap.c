@@ -20,7 +20,8 @@ int main(void)
 
     do
     {
-        
+        //  to be completed
+        //  the functions are the ones which matter the most
     } while (choice!=6);
     
     

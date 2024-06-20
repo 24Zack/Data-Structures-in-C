@@ -45,6 +45,9 @@ int main(void)
     //declarations
     int choice;
 
+    //  to be completed, but the most important part are the functions, 
+    //  it's just a hash table implemented using linked lists
+    return 0;
 }
 
 void initialize_HT(node **arr,int N)

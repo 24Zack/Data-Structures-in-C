@@ -84,4 +84,5 @@ treeNode *root=NULL;
 	}
 	}while(choice!=4);
   }
+  return 0;
 }
