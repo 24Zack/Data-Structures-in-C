@@ -53,6 +53,7 @@ To effectively learn and work with data structures in C, you need to have a soli
 
 <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="VS Code Logo" width="100"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/GNU_Compiler_Collection_logo.svg" alt="GCC" width="100"/>
+
 ## Author
 
 - [@Zackaria](https://github.com/24Zack)
