@@ -26,13 +26,6 @@ To effectively learn and work with data structures in C, you need to have a soli
   git clone https://github.com/24Zack/Data-Structures-in-C
 
 ```
-
-## Tools used
-
-
-<img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="VS Code Logo" width="100"/>
-
-
 ## How to run C code
 
 #### Make sure you installed GNU C++ compiler
@@ -56,7 +49,10 @@ To effectively learn and work with data structures in C, you need to have a soli
 ```bash
   ./executable_file_name
 ```
+## Tools used
 
+<img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="VS Code Logo" width="100"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Gnu-logo.png" alt="GCC Logo" width="100"/>
 ## Author
 
 - [@Zackaria](https://github.com/24Zack)
