@@ -1,5 +1,5 @@
 /**
- * Bubble sort like the professor: Pr Talei's method
+ * Bubble sort, different method, but still O(n2)
 */
 #include <stdio.h>
 
