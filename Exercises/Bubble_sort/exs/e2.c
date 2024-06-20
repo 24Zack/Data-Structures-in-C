@@ -2,7 +2,6 @@
  * Write a C program to input elements in an array and sort array using pointers. 
  * How to sort an array in ascending or descending order using function pointers in C programming. 
  * Logic to sort an array using pointers in program.
- * like the professor
 */
 #include <stdio.h>
 
