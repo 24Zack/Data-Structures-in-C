@@ -27,6 +27,9 @@ To effectively learn and work with data structures in C, you need to have a soli
 
 ```
 
+## Tools used
+![VS Code Logo](https://code.visualstudio.com/assets/images/code-stable.png)
+
 ## How to run C code
 
 #### Make sure you installed GNU C++ compiler
