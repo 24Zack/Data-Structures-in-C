@@ -12,7 +12,7 @@ To effectively learn and work with data structures in C, you need to have a soli
 2. Structures
 3. Files
 4. Linked Lists
-5. Big O notation (not covered in this repository yet)
+5. Big O notation (not covered in this repository, because it's just theory)
 6. Stacks
 7. Queues
 8. Recursion
