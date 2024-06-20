@@ -2,6 +2,7 @@
  * Write a C program to input elements in an array and reverse the array using pointers. 
  * How to reverse an array using pointers in C programming. 
  * Logic to reverse an array using pointers in C.
+ edit: Other  possible alternatives might be recursive
 */
 #include <stdio.h>
 
