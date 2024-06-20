@@ -1,5 +1,5 @@
 /**
- * I'm going to read from the file ta capte
+ * I'm going to read from the file 
 */
 #include <stdio.h>
 
