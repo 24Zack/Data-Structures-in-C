@@ -17,9 +17,10 @@ To effectively learn and work with data structures in C, you need to have a soli
 7. Queues
 8. Recursion
 9. Trees (binary trees, BSTs)
-10. Heaps
-11. Hash tables
-12. Graphs
+10. AVL trees (still in progress)
+11. Heaps
+12. Hash tables
+13. Graphs
 
 ## How to download and clone this project
 ```bash
