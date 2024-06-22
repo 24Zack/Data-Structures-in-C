@@ -1,4 +1,4 @@
-    #include "library.h"
+#include "library.h"
 
 //Function prototypes
 void _fill_nd( s_info*To_fill, s_info *To_copy);
