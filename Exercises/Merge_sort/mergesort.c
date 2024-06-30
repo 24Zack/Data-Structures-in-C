@@ -1,4 +1,5 @@
 // C program for Merge Sort
+// It's an O(nlog(n)) algorithm
 #include <stdio.h>
 #include <stdlib.h>
 //Function prototypes
@@ -10,7 +11,7 @@ void printArray(int A[], int size);
 int main(void)
 {
 	int arr[] = { 12, 11, 13, 5, 6, 7 };
-	// int arr_size = sizeof(arr) / sizeof(arr[0]);
+	// int arr_size = sizeof(arr) / sizeof(arr[0]); OR
     int arr_size=6;
 	printf("\nGiven array is: ");
 	printArray(arr, arr_size);
@@ -45,7 +46,7 @@ void merge(int arr[], int left, int m, int right)
 	i = 0;
 	j = 0;
 	k = left;
-	while (i < n1 && j < n2) 
+	while (i < n1 && j < n2)
     {
 		if (L[i] <= R[j])
         {
@@ -62,7 +63,7 @@ void merge(int arr[], int left, int m, int right)
 
 	// Copy the remaining elements of L[],
 	// if there are any
-	while (i < n1) 
+	while (i < n1)
     {
 		arr[k] = L[i];
 		i++;
@@ -71,7 +72,7 @@ void merge(int arr[], int left, int m, int right)
 
 	// Copy the remaining elements of R[],
 	// if there are any
-	while (j < n2) 
+	while (j < n2)
     {
 		arr[k] = R[j];
 		j++;
@@ -85,7 +86,7 @@ void merge(int arr[], int left, int m, int right)
 // sub-array of arr to be sorted
 void mergeSort(int arr[], int lwb, int upb)
 {
-	if (lwb < upb) 
+	if (lwb < upb)
     {
 		int m = lwb + (upb - lwb) / 2;
 

@@ -14,7 +14,7 @@ struct Node* createNode(int data) {
     newNode->next = NULL;
     return newNode;
 }
-//recursive stuff
+//recursive function to traverse a Linked List in reverse order
 void fun(struct Node * walker)
 {
     if(walker ==NULL)
@@ -22,7 +22,7 @@ void fun(struct Node * walker)
         return;
     }else
     {
-        
+
         fun(walker->next);
         printf("%d\n",walker->data);
     }

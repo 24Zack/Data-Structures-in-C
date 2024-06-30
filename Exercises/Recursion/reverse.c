@@ -1,5 +1,5 @@
 /**
- * reverse an array using recursion 
+ * Reverse an array using recursion
 */
 #include <stdio.h>
 
@@ -16,8 +16,8 @@ void reverse(int *arr, int start, int end)
         arr[end]=temp;
         reverse(arr,start+1,end-1);
     }
-    
-    
+
+
 }
 
 int main(void)
@@ -37,6 +37,6 @@ int main(void)
         printf("%d ",arr[i]);
     }
 
-    
+
     return 0;
 }

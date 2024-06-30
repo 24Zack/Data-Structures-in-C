@@ -3,7 +3,6 @@
 Test Data :
 Input a number : 50
 Expected Output :
-
 The number of digits in the number is :  2
 */
 #include <stdio.h>
@@ -18,7 +17,7 @@ int count_digits(int n)
     {
         return 1;
     }
-    
+
 }
 int main(void)
 {

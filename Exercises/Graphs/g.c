@@ -33,7 +33,7 @@ Graph* createGraph(int vertices){
         graph->Adjlist[i] = NULL;
     }
     return graph;
-    
+
 }
 
 void addEdge(Graph* graph, int src, int dest, int weight){
@@ -52,7 +52,7 @@ while (current->vertex != dest || current != NULL)
         current = current->next;
     }
 
-    
+
 
     if (current != NULL)
     {
@@ -65,16 +65,16 @@ while (current->vertex != dest || current != NULL)
         {
              prev->next = current->next;
              free(current);
-        }  
+        }
     }
     else
     {
         printf("The edge was not found! \n");
     }
     graph->e--;
- 
-    
-    
+
+
+
 }
 
 int AdjacentEdge(Graph* graph, int src, int dest){
@@ -89,10 +89,9 @@ while (current != NULL)
         {
             current = current->next;
         }
-     
+
     }
     return 0;
-    
 }
 
 int outdeg(Graph* graph, int src){
@@ -100,10 +99,10 @@ int outdeg(Graph* graph, int src){
         int counter = 0;
 while (current != NULL)
     {
-        
+
      current = current->next;
      counter++;
-     
+
     }
 
 return counter;
@@ -120,9 +119,9 @@ void printGraph(Graph* graph){
             current = current->next;
         }
         printf("NULL\n");
-        
+
     }
-    
+
 }
 
 void bfs(Graph *graph, int startVertex)
@@ -135,7 +134,7 @@ void bfs(Graph *graph, int startVertex)
 
     int queue[graph->v];
     int front = 0, rear = 0;
-    
+
     visited[startVertex] = 1;
     queue[rear] = startVertex;
     rear = (rear + 1) % graph->v;
@@ -158,7 +157,7 @@ void bfs(Graph *graph, int startVertex)
             }
             temp = temp->next;
         }
-        
+
     }
     printf("\n");
 }
@@ -178,7 +177,7 @@ void dfs(Graph *graph, int startVertex, int visited[]){
         }
         temp = temp->next;
     }
-    
+
 }
 
 int minDistance(int d[], int c[], int v){

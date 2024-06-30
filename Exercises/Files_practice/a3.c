@@ -4,7 +4,7 @@ Test Data :
 Input the file name to be opened : test.txt
 Expected Output :
 
- The content of the file test.txt is  :                                                                       
+ The content of the file test.txt is  :
 This is the content of the file test.txt.
 */
 #include <stdio.h>
@@ -14,14 +14,13 @@ int main(void)
     //declarations
     FILE *p;
     char str[150];
-    
+
     p=fopen(file,"r");
     if (p==NULL)
     {
         printf("\nFile doesn't exist");
         return 1;
     }
-    
     printf("\nThis is the content of the file test.txt: ");
     while (!feof(p))
     {
@@ -29,5 +28,5 @@ int main(void)
         printf("\n%s",str);
     }
     fclose(p);
-    
+    return 0;
 }

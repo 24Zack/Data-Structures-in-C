@@ -1,3 +1,6 @@
+/**
+*   Write a recursive function that prints the first 50 natural numbers
+*/
 #include <stdio.h>
 
 void print_50N(int n)

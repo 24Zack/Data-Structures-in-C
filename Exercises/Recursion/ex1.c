@@ -1,5 +1,5 @@
 /**
- * OK.
+ * Just an exercise from a Youtube video to learn recursion
 */
 #include <stdio.h>
 
@@ -15,7 +15,7 @@ int fun(int n)
         x=x+fun(k)*fun(n-k);
     }
     return x;
-    
+
 }
 int main(void)
 {

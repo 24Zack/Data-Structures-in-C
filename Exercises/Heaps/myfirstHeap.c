@@ -23,8 +23,8 @@ int main(void)
         //  to be completed
         //  the functions are the ones which matter the most
     } while (choice!=6);
-    
-    
+
+
     return 0;
 }
 void swap(int *a, int *b)
@@ -44,8 +44,8 @@ int find_max(int*arr,int i,int j)
     {
         return j;
     }
-    
-    
+
+
 }
 void heapify(int*arr, int par_i, int last_i)
 {
@@ -71,7 +71,7 @@ void heapify(int*arr, int par_i, int last_i)
         swap(&arr[par_i],&arr[largest]);
         heapify(arr,largest,last_i);
     }
-   }  
+   }
 }
 int delete(int *arr,int*no_elts)
 {
@@ -103,19 +103,15 @@ int Add(int*arr,int toAdd,int*no_elts)
     if (*no_elts==SIZE)
     {
         return 0;
-    }else
-    {
-        index=(*no_elts)++;
-        arr[index]=toAdd;
-        while (index>=1&&arr[index]>arr[(index-1)/2])
-        {
-            swap(&arr[index],&arr[(index-1)/2]);
-            index=(index-1)/2;
-        }
-        return 1;
     }
-    
-    
+    index=(*no_elts)++;
+    arr[index]=toAdd;
+    while (index>=1&&arr[index]>arr[(index-1)/2])
+    {
+        swap(&arr[index],&arr[(index-1)/2]);
+        index=(index-1)/2;
+    }
+    return 1;
 }
 void heapsort(int*arr,int N)
 {
@@ -125,6 +121,4 @@ void heapsort(int*arr,int N)
     {
         arr2[i]=arr[i];
     }
-    
-    
 }

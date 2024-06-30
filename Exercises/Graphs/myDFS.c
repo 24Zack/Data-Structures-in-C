@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 #define MAX 10
 /*
 #define N 10

@@ -13,8 +13,6 @@ void towerOfHanoi(char S, char T, char D, int n)
         printf("\n%c to %c",S,D);
         towerOfHanoi(T,S,D,n-1);
     }
-    
-    
 }
 
 int main()

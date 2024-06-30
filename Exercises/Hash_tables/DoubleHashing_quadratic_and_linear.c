@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 #define tableSize 10
-#define MAX_NO_PERSON 5
+#define MAX_NO_PERSON
+
+//  Enumerated type
 typedef enum
 {
     Hash=1,
@@ -10,7 +12,9 @@ typedef enum
     Print_hash_table=4,
     QUIT=5
 }menu_t;
-typedef struct 
+
+//  Structure
+typedef struct
 {
     int id;
     char name[40];
@@ -64,7 +68,7 @@ int main(void)
             {
                 printf("\nSorry, you reached the maximum number of persons to add");
             }
-            
+
             break;
         case Delete:
             printf("\nPlease enter the person's ID: ");
@@ -80,7 +84,7 @@ int main(void)
             }else
             {
                 printf("\nSorry, the Hash table is empty");
-            } 
+            }
             break;
         case Search:
             printf("\nPrint enter the person's ID: ");
@@ -97,7 +101,7 @@ int main(void)
             {
                 printf("\nSorry, Student %d is not in the hash table",id);
             }
-            
+
             break;
         case Print_hash_table:
             print_HT(Hash_table,persons+1);
@@ -132,7 +136,7 @@ int add_person(person* HT,person toAdd,int location,int* n_persons)
     if (*n_persons==MAX_NO_PERSON)
     {
         return 2;
-    } 
+    }
     while (HT[location].status==1)
     {
         if (Collision_resolution==0)
@@ -142,7 +146,7 @@ int add_person(person* HT,person toAdd,int location,int* n_persons)
         {
             location=(h1_location+i*HF2(toAdd.id))%tableSize;
             i++;
-        } 
+        }
     }
     // strcpy(HT[location].name,toAdd.name);
     // HT[location].id=toAdd.id;
@@ -151,7 +155,7 @@ int add_person(person* HT,person toAdd,int location,int* n_persons)
     HT[location].status=1; //making sure
     (*n_persons)++;
     printf("\n\t%s is at index %d",toAdd.name,location);
-    return 1;    
+    return 1;
 }
 
 int HF1(int key)
@@ -227,9 +231,9 @@ int search_person(person *HT,int ID, int no_persons,int location,int*position)
             location=(location+i*HF2(ID))%tableSize;
             i++;
         }
-        no_of_tries++; 
+        no_of_tries++;
     }
-    
+
     return flag;
 }
 void Initialize_HT(person* HT)
@@ -241,7 +245,7 @@ void Initialize_HT(person* HT)
         HT[i].status=0;
         strcpy(HT[i].name,"nothings");
     }
-    
+
 }
 void print_HT(person* HT,int n_pers)
 {
@@ -256,8 +260,7 @@ void print_HT(person* HT,int n_pers)
     {
         if (HT[i].status==1)
         {
-         printf("\nID: %d, name: %s",HT[i].id,HT[i].name);   
+         printf("\nID: %d, name: %s",HT[i].id,HT[i].name);
         }
     }
 }
-

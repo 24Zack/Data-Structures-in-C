@@ -4,7 +4,7 @@ Test Data :
 Input a sentence for the file : This is the content of the file test.txt.
 Expected Output :
 
- The file test.txt created successfully...!! 
+ The file test.txt created successfully...!!
 */
 #include <stdio.h>
 
@@ -19,4 +19,5 @@ int main(void)
     fprintf(p,"%s\n",str);
     fclose(p);
     printf("The file test.txt created successfully...!!\n");
+    return 0;
 }

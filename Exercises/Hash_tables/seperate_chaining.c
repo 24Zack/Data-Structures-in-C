@@ -32,7 +32,7 @@ typedef struct tag
 //  Functions prototypes
 void initialize_HT(node **,int);
 void Add(node**,node*,int);
-node* Delete(node**,int,int);
+node* delete(node**,int,int);
 void Display(node **, int);
 node* create_nd();
 int HF(int,int);
@@ -45,7 +45,7 @@ int main(void)
     //declarations
     int choice;
 
-    //  to be completed, but the most important part are the functions, 
+    //  to be completed, but the most important part are the functions,
     //  it's just a hash table implemented using linked lists
     return 0;
 }
@@ -74,10 +74,10 @@ void Add(node**arr,node*toAdd,int index)
         toAdd->next=arr[index];
         arr[index]=toAdd;
     }
-    
+
 }
 
-node* Delete(node**arr,int ID,int index)
+node* delete(node**arr,int ID,int index)
 {
     //  local declarations
     node *temp,*walker;
@@ -106,7 +106,7 @@ node* Delete(node**arr,int ID,int index)
                 }
             }
             return NULL;
-        }   
+        }
     }
 }
 
@@ -122,10 +122,10 @@ void Display(node **HT, int N)
             printf("\nName: %s, ID:%d",walker->name,walker->ID);
             walker=walker->next;
         }
-        
-        
+
+
     }
-    
+
 }
 
 int check_empty_HT(node**HT,int size)
@@ -137,7 +137,7 @@ int check_empty_HT(node**HT,int size)
         {
             return 1;
         }
-        
+
     }
     return 0;
 }

@@ -25,6 +25,4 @@ int sum(int N)
     {
         return (sum(N-1)+N);
     }
-    
-    
 }
