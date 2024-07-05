@@ -8,6 +8,7 @@ chaining.
 ◼ We are using ID%Size as a hash function
 ◼ Implement this code
 */
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

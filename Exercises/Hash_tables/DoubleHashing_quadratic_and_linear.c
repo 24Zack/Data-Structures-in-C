@@ -1,3 +1,7 @@
+/**
+ * Implementing the 3 hashing methods for hash tables
+ */
+
 #include <stdio.h>
 #include <string.h>
 #define tableSize 10

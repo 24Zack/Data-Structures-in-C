@@ -1,28 +1,23 @@
 /**
- * Write a recursive function ‘sum(int n)’
-that calculates the sum of successive
-integers starting at 1 and ending at n
-[sum(n) = 1+2+…+n]
+*   Write a recursive function that prints the first 50 natural numbers
 */
 #include <stdio.h>
-int sum(int N);
-int main(void)
-{
-    //declarations
-    int tot;
-    int n=3;
-    tot=sum(n);
-    printf("\nSum: %d",tot);
-    return 0;
-}
 
-int sum(int N)
+void print_50N(int n)
 {
-    if (N==1)
+    if (n==51)
     {
-        return 0;
+        return;
     }else
     {
-        return (sum(N-1)+N);
+        printf("%d ",n);
+        print_50N(n+1);
     }
+}
+
+int main(void)
+{
+    printf("\n50 natural numbers: ");
+    print_50N(1);
+    return 0;
 }

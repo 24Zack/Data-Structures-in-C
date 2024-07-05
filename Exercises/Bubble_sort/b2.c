@@ -1,5 +1,5 @@
 /**
- * Bubble sort, different method, but still O(n2)
+ * Bubble sort made differently, but still O(n^2)
 */
 #include <stdio.h>
 

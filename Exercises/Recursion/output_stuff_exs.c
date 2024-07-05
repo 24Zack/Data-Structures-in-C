@@ -1,3 +1,6 @@
+//
+//  Define a recursive function to traverse a Linked List in reverse order
+//
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -14,7 +17,7 @@ struct Node* createNode(int data) {
     newNode->next = NULL;
     return newNode;
 }
-//recursive function to traverse a Linked List in reverse order
+
 void fun(struct Node * walker)
 {
     if(walker ==NULL)

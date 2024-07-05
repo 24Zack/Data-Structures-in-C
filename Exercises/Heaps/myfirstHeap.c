@@ -1,5 +1,7 @@
 /**
  * Implemetning a max-heap
+ * 
+ * Comment: for more application on heaps look at the project 2 in this repository
 */
 #include <stdio.h>
 #define SIZE 10

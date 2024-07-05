@@ -1,32 +1,32 @@
 /**
- * 14. Write a program in C to print even or odd numbers in a given range using recursion. >
-Test Data :
-Input the range to print starting from 1 : 10
-Expected Output :
-
-All even numbers from 1 to 10 are : 2  4  6  8  10                              
-All odd numbers from 1 to 10 are : 1  3  5  7  9   
+ * Define a function used to find the minimun in a given array using recursion
 */
 #include <stdio.h>
+int min;
 
-void print_even_or_ODD(int n, int range)
+int find_min(int *arr, int n)
 {
-    if (n<=range)
+    if (n==0)
     {
-        printf("\n%d ",n);
-        print_even_or_ODD(n+2,range);
+        return min;
+    }else
+    {
+        if (arr[0]<arr[n])
+        {
+            arr[n]=arr[0];
+        }
+        min =find_min(arr+1,n-1);
     }
-    
+
 }
+
 
 int main(void)
 {
     //declarations
-    int range=10;
-    printf("\nOdd: ");
-    print_even_or_ODD(1,range);
-    printf("\nEven: ");
-    print_even_or_ODD(2,range);
+    int arr[]={12,2,3,1,0,9};
 
+    find_min(arr,5);
+    printf("min: %d",min);
     return 0;
 }

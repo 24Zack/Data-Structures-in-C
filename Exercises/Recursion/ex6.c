@@ -1,27 +1,30 @@
 /**
- * Write a function that calculates the sum of an array recursively
+ * 5. Write a program in C to count the digits of a given number using recursion. >
+Test Data :
+Input a number : 50
+Expected Output :
+The number of digits in the number is :  2
 */
 #include <stdio.h>
 
-int sum_arr(int *arr, int n);
+int count_digits(int n)
+{
+    n/=10;
+    if (n!=0)
+    {
+        return (1+count_digits(n));
+    }else
+    {
+        return 1;
+    }
 
+}
 int main(void)
 {
     //declarations
-    int arr[4]={10,30,20,33};
-    int sum;
-    sum=sum_arr(arr,4);
-    printf("\nSum: %d",sum);
+    int n=30;
+    int dig;
+    dig=count_digits(n);
+    printf("\ndigits of %d: %d",n,dig);
     return 0;
-}
-
-int sum_arr(int *arr, int n)
-{
-    if (n==0)
-    {
-        return 0;
-    }else
-    {
-        return (arr[0]+sum_arr(arr+1,n-1));
-    }
 }

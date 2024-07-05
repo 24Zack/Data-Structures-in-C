@@ -1,24 +1,28 @@
 /**
- * Just an exercise from a Youtube video to learn recursion
+ * Write a recursive function ‘sum(int n)’
+that calculates the sum of successive
+integers starting at 1 and ending at n
+[sum(n) = 1+2+…+n]
 */
 #include <stdio.h>
-
-int fun(int n)
-{
-    int x=1,k;
-    if (n==1)
-    {
-        return x;
-    }
-    for ( k = 0; k < n; ++k)
-    {
-        x=x+fun(k)*fun(n-k);
-    }
-    return x;
-
-}
+int sum(int N);
 int main(void)
 {
-    fun(4);
+    //declarations
+    int tot;
+    int n=3;
+    tot=sum(n);
+    printf("\nSum: %d",tot);
     return 0;
+}
+
+int sum(int N)
+{
+    if (N==1)
+    {
+        return 0;
+    }else
+    {
+        return (sum(N-1)+N);
+    }
 }
