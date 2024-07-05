@@ -12,15 +12,14 @@ To effectively learn and work with data structures in C, you need to have a soli
 2. Structures
 3. Files
 4. Linked Lists
-5. Big O notation (not covered in this repository, because it's just theory)
-6. Stacks
-7. Queues
-8. Recursion
-9. Trees (binary trees, BSTs)
-10. AVL trees (not up-to date yet)
-11. Heaps
-12. Hash tables
-13. Graphs
+5. Stacks
+6. Queues
+7. Recursion
+10. Trees (binary trees, BSTs)
+11. AVL trees (not up-to date yet)
+12. Heaps
+13. Hash tables
+14. Graphs
 
 ## How to download and clone this project
 ```bash
