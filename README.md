@@ -3,10 +3,11 @@
 
 # Description
 
-This project provides a comprehensive collection of data structures and algorithms implemented in the C programming language, as well as different sorting algorithms and the basic of strings and files that were introduced beforehand.
+This project provides a collection of data structures and algorithms implemented in the C programming language, the project consits of three parts : the exercises, the homeworks and the projects I had to do. In the exercises, you can find each exercise instruction in the comment above of the file, as well as its solution below the comment (I highly encourage you to do them). The homeworks also are designed in the same way. There are two projects also provided, one implemented using circular queues, and the other using heaps.
 
 # Prerequisites
-To effectively learn and work with data structures in C, you need to have a solid understanding of several foundational concepts such as the basics of C programming, pointers and arrays as well as strings (although they are reviewed in the repository). 
+To understand data structures in C, you shall have solid foundations in programming in general, but the most important thing is to understand the basics of C programming (which makes C programming unique) which are pointers, arrays and strings.
+
 # Content
 1. Strings
 2. Structures
