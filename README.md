@@ -14,13 +14,29 @@ To understand data structures in C, you shall have solid foundations in programm
 3. Files
 4. Linked Lists
 5. Stacks
+    - Array implementation
+    - Linked List implementation
 6. Queues
+    - Array implementation
+    - Linked List implementation
 7. Recursion
-10. Trees (binary trees, BSTs)
-11. AVL trees (not up-to date yet)
-12. Heaps
-13. Hash tables
-14. Graphs
+    - Merge sort
+8. Trees 
+    - Binary search trees (BST)
+    - AVL trees
+9. Heaps
+    -  Minimum heap
+    -  Maximum heap
+    -  Heapsort
+10. Hash tables
+    - Linear Probing
+    - Quadratic Probing
+    - Double Hashing
+11. Graphs
+    - Minimum Spanning tree (MST, using Prim's algorithm)
+    - DFS: depth first search
+    - BFS: breadth first search
+    - Dijkstra's algorithm 
 
 ## How to download and clone this project
 ```bash
