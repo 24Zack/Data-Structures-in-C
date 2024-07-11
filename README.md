@@ -1,5 +1,5 @@
 
-# Data Structures and Algorithm in C
+# Data Structures and Algorithms in C
 
 # Description
 
