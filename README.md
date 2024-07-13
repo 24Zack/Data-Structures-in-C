@@ -21,6 +21,7 @@ To understand data structures in C, you shall have solid foundations in programm
     - Linked List implementation
 7. Recursion
     - Merge sort
+    - Quick sort
 8. Trees 
     - Binary search trees (BST)
     - AVL trees
