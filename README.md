@@ -1,6 +1,10 @@
 
 # Data Structures and Algorithms in C
 
+<img width="658" height="339" alt="Screenshot 2025-08-31 at 19 12 32" src="https://github.com/user-attachments/assets/011314ee-dfc5-42eb-bbad-22a652887031" />
+
+
+
 # Description
 
 This project provides a collection of data structures and algorithms implemented in the C programming language, the project consits of three parts : the exercises, the homeworks and the projects I had to do. In the exercises, you can find each exercise instruction in the comment above of the file, as well as its solution below the comment (I highly encourage you to do them). The homeworks also are designed in the same way. There are two projects also provided, one implemented using circular queues, and the other using heaps.
